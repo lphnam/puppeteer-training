@@ -2,8 +2,8 @@ const puppeteer = require('puppeteer');
 const instagram = require('./instagram');
 
 
-let username = 'phucthinhngo';
-let password = '!@#456';
+let username = '';
+let password = '';
 
 (async() => {
 
@@ -23,8 +23,8 @@ let password = '!@#456';
     // await page.waitFor(100);
 
     // await page.waitFor('input[name="username"]');
-    // await page.type('input[name="username"]', 'phucthinhngo', { delay: 20 });
-    // await page.type('input[name="password"]', '!@#456', { delay: 20 });
+    // await page.type('input[name="username"]', '', { delay: 20 });
+    // await page.type('input[name="password"]', '', { delay: 20 });
     // await page.click('#react-root > section > main > div > article > div > div:nth-child(1) > div > form > div:nth-child(4) > button');
 
     debugger;
